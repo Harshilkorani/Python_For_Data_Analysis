@@ -13,19 +13,19 @@
   * Result : Stacked Bar Chart
   
  * Analysis 2 : Toss Impact on different teams across seasons
-  * Grouped Bar Plot
+  * Result : Grouped Bar Plot
   
  * Analysis 3a : Teams handling their nerves successfully
-  * Bar Plot
+  * Result : Bar Plot
  
  * Analysis 3b : Teams dominating their opposition
-  * Bar Plot
+  * Result : Bar Plot
   
  * Analysis 4 : Top 5 batsman performances across seasons
-  * Point Plot Chart
+  * Result : Point Plot Chart
   
  * Analysis 5 : Dynamic Player Comparison against runs scored, strike rate
-  * Grouped Bar Chart
+  * Result : Grouped Bar Chart
 
 
 ## Introduction
