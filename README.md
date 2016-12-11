@@ -85,9 +85,11 @@ for year in range(2008,2017):
 ## ANALYSIS 1: Team Wins in different Cities in various IPL Seasons
 **************************************************************************************************************************************
 
+####Code to get team wins per city data
 ![wins_per_city](https://cloud.githubusercontent.com/assets/12143009/21075113/013af3f6-bed8-11e6-8d2b-cb714f90ff04.PNG)
 
 
+####Graph:
 ![total_wins_per_city](https://cloud.githubusercontent.com/assets/12143009/21075123/334732ce-bed8-11e6-8f45-e244cbfcb7ea.png)
 
 
@@ -96,6 +98,7 @@ for year in range(2008,2017):
 ## ANALYSIS 2: Toss Decision & Impact in IPL across seasons for various teams
 **************************************************************************************************************************************
 
+####Code to get toss winners data
 ![toss](https://cloud.githubusercontent.com/assets/12143009/21075145/a5d8ad18-bed8-11e6-937a-e0d554db932e.PNG)
 
 
