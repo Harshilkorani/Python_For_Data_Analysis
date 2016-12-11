@@ -1,5 +1,40 @@
 ##PYTHON FINAL PROJECT
 
+# IPL Data Analysis
+![vivo-ipl-2016-logos](https://cloud.githubusercontent.com/assets/12143009/21077436/631cfbe6-bf19-11e6-8889-72b7adda39cc.jpg)
+
+## Content:
+
+ * Introduction about data 
+ 
+ * Pre-processing steps
+ 
+ * Analysis 1 : Season wise wins for each team at different venues
+  * Code Sample
+  * Result
+  
+ * Analysis 2 : Toss Impact on different teams across seasons
+  * Code Sample
+  
+ * Analysis 3a : Teams handling their nerves successfully
+  * Code Sample
+  * Result
+ 
+ * Analysis 3b : Teams dominating their opposition
+  * Code Sample
+  * Result
+  
+ * Analysis 4 : Top 5 batsman performances across seasons
+  * Code Sample
+  * Result
+  
+ * Analysis 5 : Dynamic Player Comparison against runs scored, strike rate
+  * Code Sample
+  * Results
+
+
+## Introduction
+**************************************************************************************************************************************
 * Raw data is collected from http://cricsheet.org/
 * Raw data consists of 2 files matches.csv & deliveries.csv
 * Matches.csv consists of following columns & data for all 577 matches held till date:
@@ -10,21 +45,25 @@
 
 ![deliveries](https://cloud.githubusercontent.com/assets/12143009/21075002/92e64754-bed5-11e6-9584-3759332e982e.PNG)
 
-* First step done was to read the data into a data frame.
-```
+* Sample code to read csv data into a data frame.
+```python 
 sample code:
 path = "C:/PYTHON/pythonFinalProject/rawDataPythonIPL"
 all_matches_df = pd.read_csv(path+"\matches.csv")
 all_matches_df.head(2)
 ```
 
-* Second step was to find the aggregate scores for each match
+* Aggregate Total scores, team extras for each match
 
 ![aggregate_score](https://cloud.githubusercontent.com/assets/12143009/21075050/8e3401d2-bed6-11e6-85b2-04ebda918845.PNG)
 
+
+![team_extras](https://cloud.githubusercontent.com/assets/12143009/21077495/768daac0-bf1b-11e6-8d37-fcc2cd4c691f.PNG)
+
+
 * Merge the team scores for each match with the matches, so adding new columns to the all matches data
 
-* After this, adding new column which identifies the match type for each match as a Pre-qualifier, Qualifier, Eliminator & Final
+* Adding new column which identifies the match type for each match as a Pre-qualifier, Qualifier, Eliminator & Final
 
 ![match_type](https://cloud.githubusercontent.com/assets/12143009/21075078/5aa9ea2e-bed7-11e6-8ec8-3941f3dfa10c.PNG)
 
@@ -42,9 +81,8 @@ all_matches_df.head(2)
 
 ![toss](https://cloud.githubusercontent.com/assets/12143009/21075145/a5d8ad18-bed8-11e6-937a-e0d554db932e.PNG)
 
-![toss1](https://cloud.githubusercontent.com/assets/12143009/21075155/08b4b8be-bed9-11e6-97a8-2fd813f035a1.PNG)
 
-![toss_winner_is_match_winner_for_teams](https://cloud.githubusercontent.com/assets/12143009/21075149/cf11c9f8-bed8-11e6-8188-f168cc18ae4a.png)
+![toss_winner_is_match_winner_for_teams](https://cloud.githubusercontent.com/assets/12143009/21077397/1b957236-bf18-11e6-8022-0f2ad0aa273c.png)
 
 ###ANALYSIS 3a : Team which handle their nerves under pressure ?
 
