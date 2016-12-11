@@ -34,13 +34,13 @@
 * Raw data consists of 2 files matches.csv & deliveries.csv
 * Matches.csv consists of following columns & data for all 577 matches held till date:
 
-Matches.csv
+####Matches.csv
 ![matches](https://cloud.githubusercontent.com/assets/12143009/21074980/29cbd1e4-bed5-11e6-99f7-f34b0e96c649.PNG)
 
 
 * Deliveries.csv consists of following columns & ball by ball data for each match held till date:
 
-Deliveries.csv
+####Deliveries.csv
 ![deliveries](https://cloud.githubusercontent.com/assets/12143009/21075002/92e64754-bed5-11e6-9584-3759332e982e.PNG)
 
 
@@ -55,10 +55,12 @@ all_matches_df.head(2)
 
 * Aggregate Total scores, team extras for each match
 
-![aggregate_score](https://cloud.githubusercontent.com/assets/12143009/21077507/0ce13686-bf1c-11e6-8289-93ebddf5d811.PNG)
+
+####Total Team Score
+![aggregate_score](https://cloud.githubusercontent.com/assets/12143009/21077857/7c0a66a8-bf27-11e6-9060-9920547ef46f.PNG)
 
 
-
+####Total Team Extras
 ![team_extras](https://cloud.githubusercontent.com/assets/12143009/21077495/768daac0-bf1b-11e6-8d37-fcc2cd4c691f.PNG)
 
 
@@ -130,6 +132,16 @@ for year in range(2008,2017):
 **************************************************************************************************************************************
 
 * Calculated all the batsman aggregates like runs scored per match, balls face, 4s scored, 6s scored, strike rate, dismissal-kind
+
+
+
+match_id | inning | batting_team | batsman | batsman_runs | balls_faced | Strike-Rate | More-Than-30 | More-Than-50 | More-Than-100 | 4s | 6s | dismissal_kind | fielder
+----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- 
+1 | 1 | Kolkata Knight Riders|BB McCullum|158|73.0|216.44|1|1|1|10|13|0|0
+1 | 1 | Kolkata Knight Riders|DJ Hussey|12|12.0|100.00|0|0|0|1|0|caught|CL White
+
+
+
 
 ![players_comparison_by_balls_faced](https://cloud.githubusercontent.com/assets/12143009/21075260/05287328-bedb-11e6-8c94-92e5c7cbe1c0.png)
 
