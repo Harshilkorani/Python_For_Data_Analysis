@@ -64,15 +64,19 @@ all_matches_df.head(2)
 * Merge the team scores for each match with the matches, so adding new columns to the all matches data
 
 * Adding new column which identifies the match type for each match as a Pre-qualifier, Qualifier, Eliminator & Final
-
-
-![match_type](https://cloud.githubusercontent.com/assets/12143009/21075078/5aa9ea2e-bed7-11e6-8ec8-3941f3dfa10c.PNG)
-
-
-
-
-* After data pre-processing, time to perform some analysis:
-
+```python 
+sample code:
+for year in range(2008,2017):
+    fourth_last_match_in_each_season = all_matches_df[all_matches_df["season"] == year][-4:].index.values[0]
+    third_last_match_in_each_season = fourth_last_match_in_each_season + 1
+    second_last_match_in_each_season = third_last_match_in_each_season + 1
+    last_match_in_each_season = second_last_match_in_each_season + 1
+    
+    all_matches_df = all_matches_df.set_value(fourth_last_match_in_each_season, "match-type" , "Qualifier-1")
+    all_matches_df = all_matches_df.set_value(third_last_match_in_each_season, "match-type" , "Eliminator")
+    all_matches_df = all_matches_df.set_value(second_last_match_in_each_season, "match-type" , "Qualifier-2")
+    all_matches_df = all_matches_df.set_value(last_match_in_each_season, "match-type" , "Final")
+```
 
 
 ## ANALYSIS 1: Team Wins in different Cities in various IPL Seasons
