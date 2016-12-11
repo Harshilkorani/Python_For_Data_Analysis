@@ -85,7 +85,7 @@ for year in range(2008,2017):
 ## ANALYSIS 1: Team Wins in different Cities in various IPL Seasons
 **************************************************************************************************************************************
 
-####Code to get team wins per city data
+####Code to get team wins per city data:
 ![wins_per_city](https://cloud.githubusercontent.com/assets/12143009/21075113/013af3f6-bed8-11e6-8d2b-cb714f90ff04.PNG)
 
 
@@ -98,10 +98,15 @@ for year in range(2008,2017):
 ## ANALYSIS 2: Toss Decision & Impact in IPL across seasons for various teams
 **************************************************************************************************************************************
 
-####Code to get toss winners data
+####Code to get toss winners data:
 ![toss](https://cloud.githubusercontent.com/assets/12143009/21075145/a5d8ad18-bed8-11e6-937a-e0d554db932e.PNG)
 
 
+####Graph 1:
+![toss1](https://cloud.githubusercontent.com/assets/12143009/21077917/4b0a3f86-bf29-11e6-9e1b-be9434f1f149.PNG)
+
+
+####Graph 2:
 ![toss_winner_is_match_winner_for_teams](https://cloud.githubusercontent.com/assets/12143009/21077397/1b957236-bf18-11e6-8022-0f2ad0aa273c.png)
 
 
@@ -109,8 +114,11 @@ for year in range(2008,2017):
 ## ANALYSIS 3a : Team which handle their nerves under pressure ?
 **************************************************************************************************************************************
 
+####Code to get teams which won close matches:
 ![close_matches](https://cloud.githubusercontent.com/assets/12143009/21075168/6b67ae6c-bed9-11e6-8c90-246e84fa305c.PNG)
 
+
+####Graph:
 ![team_winning_close_matches](https://cloud.githubusercontent.com/assets/12143009/21075174/91d5428a-bed9-11e6-8884-0bd6569e8522.png)
 
 
@@ -118,16 +126,23 @@ for year in range(2008,2017):
 ## ANALYSIS 3b: No. of times, Teams dominated their opposition with big victories
 **************************************************************************************************************************************
 
+####Code to get teams winning with big margins
 ![big_margins](https://cloud.githubusercontent.com/assets/12143009/21075191/dcd19fea-bed9-11e6-83cc-1585a7afe6de.PNG)
 
+
+####Graph:
 ![team_winning_big_margins](https://cloud.githubusercontent.com/assets/12143009/21075199/f532bb28-bed9-11e6-8b61-5c255d78efce.png)
+
 
 
 ## ANALYSIS 4: Top 5 Batsman
 **************************************************************************************************************************************
 
+####Code to get top 5 batsman:
 ![top5](https://cloud.githubusercontent.com/assets/12143009/21075230/70cd4802-beda-11e6-8cc4-bc2187581024.PNG)
 
+
+####Graph:
 ![top_5_batsman_runs_per_season](https://cloud.githubusercontent.com/assets/12143009/21075237/8a4e9ed4-beda-11e6-93b0-35ec2b830406.png)
 
 
@@ -146,10 +161,14 @@ match_id | inning | batting_team | batsman | batsman_runs | balls_faced | Strike
 
 
 
+####Graph 1: Player Comparison By Runs
 ![players_comparison_by_balls_faced](https://cloud.githubusercontent.com/assets/12143009/21075260/05287328-bedb-11e6-8c94-92e5c7cbe1c0.png)
 
+####Graph 2: Player Comparison By Balls Faced
 ![players_comparison_by_runs](https://cloud.githubusercontent.com/assets/12143009/21075261/0a49e850-bedb-11e6-87d4-3a6fe4403e01.png)
 
+
+####Graph 3: Player Comparison By Strike_Rate
 ![players_comparison_by_strike_rate](https://cloud.githubusercontent.com/assets/12143009/21075262/0eb2608e-bedb-11e6-94b0-7fb7195bf088.png)
 
 
